@@ -13,14 +13,18 @@
     }
     
     .cabeçalho_imagem{
-    width: 12%;
+    width: 50%;
     }
     
     .cabeçalho_titulo{
+    font-family: sans-serif;
+    font-style: oblique;
     font-size: 50px;
     }
     
     .cabeçalho_lista_item{
+    font-family: sans-serif;
+    font-style: oblique;
     margin: 25px 0px 25px 0px;
     font-size: 16px;
     }
@@ -34,9 +38,7 @@
     }
     
     .titulo_apresentaçao_trabalho{
+    font-family: sans-serif;
+    font-style: oblique;
     font-size: 30px;
-    }
-    
-    .imagem_arvore{
-    width: 15%;
     }
