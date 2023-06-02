@@ -17,10 +17,9 @@
     }
     
     .cabeçalho_titulo{
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     font-size: 50px;
-    text-shadow: darkred;
     }
     
     .cabeçalho_lista_item{
