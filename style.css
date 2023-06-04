@@ -30,7 +30,7 @@
     }
     
     .apresentaçao_trabalho{
-    background-image: linear-gradient(lemonchiffon, #dd371a);
+    background-image: linear-gradient(lemonchiffon, rgb(221, 55, 26));
     display: flex;
     justify-content: space-around;
     align-items: center;

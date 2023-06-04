@@ -1,27 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body{
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .menu{
+            box-sizing: border-box;
+            width: 40%;
+            min-width: 200px;
+            height: 100vh;
+            color: #fff;
+            background-color: #272727;
+            padding: 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            transition: all .5s;
+        }
+        .menu ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .menu li{
+            padding: 5px 0;
+            cursor: pointer;
+        }
+        .menu label{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            cursor: pointer;
+            transition: all .5s;
+        }
+        #toggle-menu{
+            display: none;
+        }
+        #toggle-menu:checked ~ .menu label{
+            right: -30px;
+            color: #000;
+        }
+        #toggle-menu:checked ~ .menu{
+            left: -40%;
+        }
+    </style>
 </head>
 <body>
-<header class="cabeçalho">
-<h1 class="cabeçaLho_titulo"<h1>IMPORTÂNCIA DA BIOTECNOLOGIA</h1>
-<ul>
-<li class="cabeçalho_lista_item">Breve resumo sobre a historia da biotec e seu inicio</li>
-<li class="cabeçalho_lista_item">Quais são os estudos das diversas áreas da bictecnologia</li>
-<li class="cabeçalho_lista_item">Desenvolvimento da Pimenta Biquinho</li>
-</ul>
-</header>
-<section class="apresentaçao_trabalho">
-<section>
-<b class="titulo_apresentaçao_trabalho">Sobre o trabalho:
-</b>
-</section>
-<img class="cabeçalho_imagem" src="https://images.ecycle.com.br/wp-content/uploads/2022/12/12115723/pepper-pout-g2a2f98e7f_1920.jpg.webp" alt="0">
-</section>
+    <input type="checkbox" id="toggle-menu">
+    <div class="menu">
+        <label for="toggle-menu">X</label>
+        <ul>
+            <li>Dashboard</li>
+            <li>Alunos</li>
+            <li>Professores</li>
+            <li>Indicações</li>
+            <li>Resgates</li>
+            <li>Relatórios</li>
+        </ul>
+    </div>
 </body>
 </html>
