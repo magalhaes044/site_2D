@@ -1,0 +1,34 @@
+body {
+    background-color: #d0f0c0;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 36px;
+    color: #ff0000;
+    text-align: center;
+}
+
+p {
+    font-family: Arial;
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+}
+
+ul {
+    font-family: Arial;
+    font-size: 18px;
+    color: #000000;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #006600;
+}
