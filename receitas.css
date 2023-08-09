@@ -85,8 +85,9 @@ label {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
+    padding: 20px;
     margin: 0px;
+    font-family: Arial, sans-serif;
     background-color: #b41f4c;
   }
   .logo {
