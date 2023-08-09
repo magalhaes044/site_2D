@@ -24,7 +24,7 @@ header img {
     border: 5px solid #5BBE42;
 }
 
-header img :hover{
+header img:hover {
     width: 175px;
     height: 175px;
     border-radius: 50%;
@@ -36,7 +36,7 @@ header img :hover{
 }
 
 .align {
-        text-align: left;
+     text-align: left;
 }
 
 h1 {

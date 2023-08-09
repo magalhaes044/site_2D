@@ -28,7 +28,7 @@ body {
 .navigation {
     position: absolute;
     bottom: 160px;
-    left: 85%;
+    left: 60%;
     display: flex;
 }
 
@@ -107,7 +107,7 @@ a {
     color: #b21d06;;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
+    font-style: inherit;
 }
 
 .center {
