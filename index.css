@@ -19,6 +19,7 @@ p {
 
 ol li {
    display: block;
+   list-style-type: none;
 }
 
 a {
