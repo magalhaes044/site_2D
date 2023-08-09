@@ -17,9 +17,8 @@ p {
     font-size: 18px;
 }
 
-li {
-    justify-content: space-between;
-    text-align: justify;
+.pimentaul ul li {
+   display: block;
 }
 
 a {
